@@ -1,0 +1,21 @@
+{
+   "name": "sogliqni_saqlash_tizimi",
+   "version": "1.0.0",
+   "description": "advanced postgreSQL operations with nodeJS",
+   "main": "app.js",
+   "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+   },
+   "author": "YASHNARBEK MELIKOV",
+   "license": "ISC",
+   "dependencies": {
+      "dotenv": "^17.2.3",
+      "express": "^5.1.0",
+      "pg": "^8.16.3",
+      "uuid": "^13.0.0"
+   },
+   "devDependencies": {
+      "nodemon": "^3.1.10"
+   }
+}
